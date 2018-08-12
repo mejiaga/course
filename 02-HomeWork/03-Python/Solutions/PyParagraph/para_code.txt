@@ -1,0 +1,13 @@
+import os
+import re
+import string
+filepath = os.path.join("raw_data", "paragraph_2.txt")
+paragraph=""
+lines = []  
+# maxitems = 0
+with open(filepath, "r") as paragraphtxt:
+    paragraph = paragraphtxt.read()
+print(paragraph)
+for lines in paragraph:
+    lines.append(line.rstrip('\n')
+    print(paragraph)
