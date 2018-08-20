@@ -25,7 +25,7 @@ console.log("myLinkAnchorAttribute: " + myLinkAnchorAttribute);
 myLinkAnchor.attr("href", "https://python.org");
 
 // Use chaining to join methods
-d3.select(".mylink>a").attr("href", "https://nytimes.org").text("Now this is a link to the NYT!!");
+d3.select(".my-link>a").attr("href", "https://nytimes.org").text("Now this is a link to the NYT!!");
 
 // Select all list items, then change their font color
 d3.selectAll("li").style("color", "blue");

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Events</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h2>Streaming Music By Country</h2>
+    <select id="selDataset" onchange="getData(this.value)">
+        <option value="dataset1">United States</option>
+        <option value="dataset2">UK</option>
+        <option value="dataset3">Canada</option>
+    </select>
+
+    <div id="pie"></div>
+
+    <script src="plots.js"></script>
+</body>
+</html>
