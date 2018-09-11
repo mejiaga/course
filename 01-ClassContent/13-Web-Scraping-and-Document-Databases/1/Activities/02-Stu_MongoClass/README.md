@@ -1,4 +1,3 @@
-
 # Mongo Class
 
 ## Instructions

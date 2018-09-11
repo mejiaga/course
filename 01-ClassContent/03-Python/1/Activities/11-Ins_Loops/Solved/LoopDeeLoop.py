@@ -29,4 +29,4 @@ run = "y"
 
 while run == "y":
     print("Hi!")
-    run = input("To run again. Enter 'y'").lower()
+    run = input("To run again. Enter 'y'")

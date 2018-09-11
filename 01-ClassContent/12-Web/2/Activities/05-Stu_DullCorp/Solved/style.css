@@ -1,9 +1,6 @@
-header {
+h1 {
   text-align: center;
   background-color: grey;
-}
-
-h1 {
   color: red;
 }
 

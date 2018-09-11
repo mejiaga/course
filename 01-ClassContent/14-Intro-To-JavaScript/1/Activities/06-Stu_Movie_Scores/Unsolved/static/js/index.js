@@ -21,15 +21,3 @@ var sum = 0;
 var goodMovieScores = [];
 var okMovieScores = [];
 var badMovieScores = [];
-
-for (var i=0;i<10;i++)
-{
-    console.log("Iteration # ", i)
-
-}
-
-//var movieScores = ["John", "Tyler"];
-{
-    for (var j=0; j<movieScores;j++)
-    console.log(movieScores[j]);
-}

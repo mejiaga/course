@@ -14,5 +14,4 @@
 
 6. Finally, export this file to a spreadsheet, excluding the index, so we can keep track of our future watchlist.
 
-
-df['FILM'}
+df\['FILM'}

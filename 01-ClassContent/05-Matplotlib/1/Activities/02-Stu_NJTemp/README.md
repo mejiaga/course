@@ -2,14 +2,16 @@
 
 ## Instructions
 
-* Using the following data plot the monthly averages for temperature in New Jersey.
+* Using the following data, plot the monthly averages for temperature in New Jersey in both Fahrenheit and Celsius.
+  - Average temperature per month in Fahrenheit: `[39, 42, 51, 62, 72, 82, 86, 84, 77, 65, 55, 44]`
 
-  * Use the numerical value for month.
+* Assign to the x-axis a range of numerical values representing each month of the year.
 
-  * Average temperature per month in Fahrenheit `[39, 42, 51, 62, 72, 82, 86, 84, 77, 65, 55, 44]`
+* Plot the Fahrenheit points.
 
-* Use a list comprehension to cover the temperature to Celsius and plot that line as well.
+* Use a list comprehension to convert the temperature to Celsius.
+  - The formula for conversion is: `C = (F - 32) \* 0.56`
 
-  * C = (F - 39) \* 0.56
+* Plot the Celsius points.
 
-* Create a third plot that has both lines,
+* Lastly, create a third plot with both the Fahrenheit and Celsius points.

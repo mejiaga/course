@@ -9,7 +9,7 @@ while user_play == "y":
 
     # Loop through the numbers. (Be sure to cast the string into an integer.)
     for x in range(int(user_number)):
-    
+
         # Print each number in the range
         print(x)
 

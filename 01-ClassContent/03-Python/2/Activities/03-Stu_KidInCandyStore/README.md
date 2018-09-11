@@ -4,8 +4,8 @@
 
 * Create a loop that prints all of the candies in the store to the terminal with their index stored in brackets beside them.
 
-    * For example: "[0] Snickers"
-  
+  * For example: `"[0] Snickers"`
+
   * Create a loop that runs for a number of times as determined by the variable `allowance`.
 
     * For example: If allowance is equal to five, the loop should run five times.
@@ -18,4 +18,4 @@
 
 ### Bonus
 
-  * Create a version of the same code which allows a user to select as much candy as they want up until they say they do not want any more.
+* Create a version of the same code which allows a user to select as much candy as they want up until they say they do not want any more.

@@ -1,7 +1,7 @@
 import os
 import csv
 
-udemy_csv = os.path.join("../Resources", "WebDevelopment.csv")
+udemy_csv = os.path.join("..", "Resources", "web_starter.csv")
 
 # Lists to store data
 title = []
@@ -11,6 +11,7 @@ reviews = []
 review_percent = []
 length = []
 
+# with open(udemy_csv, newline="", encoding='utf-8') as csvfile:
 with open(udemy_csv, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     for row in csvreader:
@@ -27,7 +28,7 @@ with open(udemy_csv, newline="") as csvfile:
         reviews.append(row[6])
 
         # Determine percent of review left to 2 decimal places
-        percent = round(int(row[6])/int(row[5]), 2)
+        percent = round(int(row[6]) / int(row[5]), 2)
         review_percent.append(percent)
 
         # Get length of the course to just a number

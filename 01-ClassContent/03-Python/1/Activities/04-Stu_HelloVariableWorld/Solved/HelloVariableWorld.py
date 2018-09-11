@@ -25,8 +25,8 @@ print("You live in " + country)
 # Print out the user's age
 print("You are " + str(age) + " years old")
 
-# Print out the daily wage that was calculated
-print("You make " + str(daily_wage) + " per day")
+# With an f-string, print out the daily wage that was calculated
+print("You make {daily_wage} per day")
 
-# Print out whether the users were satisfied
-print("Are you satisfied with your current wage? " + str(satisfied))
+# With an f-string, print out whether the users were satisfied
+print(f"Are you satisfied with your current wage? {satisfied}")

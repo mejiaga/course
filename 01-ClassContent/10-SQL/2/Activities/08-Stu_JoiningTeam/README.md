@@ -2,7 +2,7 @@
 
 ## Instructions
 
-* Using tables made from `Players.csv` and `Seasons_Stats.csv`, perform joins that will create the following tables...
+* Using tables made from `Players.csv` and `Seasons_Stats.csv`, perform joins that will create the following tables:
 
   * Basic Information Table:
 

@@ -14,6 +14,6 @@ Make a request to the OMDb API for each movie in the list. Then:
 
 - - -
 
-### Copyright
+## Copyright
 
-Trilogy Education Services © 2017. All Rights Reserved.
+Data Boot Camp © 2018. All Rights Reserved.

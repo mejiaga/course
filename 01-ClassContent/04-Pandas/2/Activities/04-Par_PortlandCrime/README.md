@@ -2,12 +2,12 @@
 
 ### Instructions
 
-  * Read in the csv using Pandas and print out the DataFrame that is returned
+* Read in the csv using Pandas and print out the DataFrame that is returned
 
-  * Get a count of rows within the DataFrame in order to determine if there are any null values
+* Get a count of rows within the DataFrame in order to determine if there are any null values
 
-  * Drop the rows which contain null values
+* Drop the rows which contain null values
 
-  * Search through the "Offense Type" column and replace any similar values with one consistent value
+* Search through the "Offense Type" column and replace any similar values with one consistent value
 
-  * Create a couple DataFrames that look into one Neighborhood only and print them to the screen
+* Create a couple DataFrames that look into one Neighborhood only and print them to the screen

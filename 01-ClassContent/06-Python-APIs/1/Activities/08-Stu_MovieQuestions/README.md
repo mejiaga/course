@@ -6,7 +6,7 @@ Use the OMDb API to retrieve and print the following information.
 
 * What was the movie **Gladiator** rated?
 
-* What year was **50 First Dates** released? 
+* What year was **50 First Dates** released?
 
 * Who wrote **Moana**?
 
@@ -14,6 +14,6 @@ Use the OMDb API to retrieve and print the following information.
 
 - - -
 
-### Copyright
+## Copyright
 
-Trilogy Education Services © 2017. All Rights Reserved.
+Data Boot Camp © 2018. All Rights Reserved.

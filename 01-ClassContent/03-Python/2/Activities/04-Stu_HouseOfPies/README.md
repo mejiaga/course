@@ -6,6 +6,7 @@
 
 * Create an order form that will display a list of pies to the user in the following way:
 
+
 ```
 Welcome to the House of Pies! Here are our pies:
 
@@ -21,7 +22,8 @@ Welcome to the House of Pies! Here are our pies:
 
 # Part 2 (Very Challenging!)
 
-* Modify the application once again, this time conclude the user's purchases by listing out the total pie count broken by *each* pie.
+* Modify the application once again, this time conclude the user's purchases by listing out the total pie count broken by _each_ pie.
+
 
 ```
 You purchased:

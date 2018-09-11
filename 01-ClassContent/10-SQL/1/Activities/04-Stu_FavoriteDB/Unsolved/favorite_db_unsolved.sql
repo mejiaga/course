@@ -15,7 +15,7 @@ CREATE TABLE favorite_songs (
   -- Make a string column called "song" which cannot contain null --
   -- Make a string column called "artist" --
   -- Make an integer column called "score" --
-  score INTEGER(10)
+  score INT
 );
 
 CREATE TABLE favorite_movies (

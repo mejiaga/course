@@ -1,7 +1,11 @@
-### Billy Shakespeare
+# Billy Shakespeare
 
-### Instructions
+Refer to the [VADER documentation](https://github.com/cjhutto/vaderSentiment) and the activities from the previous class session.
 
-* Run vader analysis on the passage.
+## Instructions
 
-* Print the analysis.
+Following the comments in the starter file:
+
+* Run VADER analysis on the passage of text provided.
+
+* Print the compound, positive, neutral and negative scores.

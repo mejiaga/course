@@ -3,10 +3,10 @@
 * **Instructions:**
 
   * Read the OMDb documentation, and make a few API calls to
-    get some information about your favorite movie.
+    get some information about your favorite movie: <http://www.omdbapi.com/>
 
 - - -
 
-### Copyright
+## Copyright
 
-Trilogy Education Services © 2017. All Rights Reserved.
+Data Boot Camp © 2018. All Rights Reserved.

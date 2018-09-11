@@ -9,35 +9,6 @@ var eyeFlicker = [26.8, 27.9, 23.7, 25, 26.3, 24.8,
 // @TODO: Complete the Following Steps
 
 // Create the Trace
-var trace1 = {
-  x:eyeColor,
-  y:eyeFlicker,
-  type:"bar"
-};
-
-
-var layout ={
-  title: "Eye Vs Flicker",
-  xaxis:{title:"Eye Color"},
-  yaxis:{title:"Eye Flicker"}
-};
-
-Plotly.newPlot("plot",data,layout);
-
-//////////// Pie Chart
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Create the data array for our plot
 

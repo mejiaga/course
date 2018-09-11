@@ -8,13 +8,10 @@
 
   * The function `average` should return the arithmetic [mean](https://en.wikipedia.org/wiki/Arithmetic_mean) (average) for a list of numbers.
 
-* Write a function called `main` that will call the other function `average` with test data. For example: `average([1, 2, 3])`.
-
-* Test the code in the terminal by running `python main.py`.
+* Test your function by calling it with different values and printing the results.
 
 - - -
 
 ## Hints
 
 * [Arithmetic Mean (Average)](https://en.wikipedia.org/wiki/Arithmetic_mean)
-

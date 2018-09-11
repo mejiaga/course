@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     team_list = ["Jumpers", "Dunkers", "Dribblers", "Passers"]
-    return render_template("index.html", list = team_list)
+    return render_template("index.html", list=team_list)
 
 
 if __name__ == "__main__":

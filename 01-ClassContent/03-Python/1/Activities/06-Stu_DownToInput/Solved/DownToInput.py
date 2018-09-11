@@ -12,4 +12,3 @@ total_months_coded = int(months_you_coded) + int(months_neighbor_coded)
 # Print results
 print("I am " + your_first_name + " and my neighbor is " + neighbor_first_name)
 print("Together we have been coding for " + str(total_months_coded) + " months!")
-

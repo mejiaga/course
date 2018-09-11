@@ -1,17 +1,19 @@
-# Directions
+# Breaking News
 
-* We are going to analyze 25 tweets and run sentiment analysis on them.
+As a review of concepts learned in the previous session of class, run sentiment analysis on 25 tweets.
 
-  * Add a list to hold sentiments
+## Instructions
 
-  * Grab 25 tweets
+Following the comments in the starter file:
 
-  * Loop through all tweets
+* Create lists to hold each of the compound, positive, neutral and negative polarity scores
 
-  * Run Vader Analysis on each tweet
+* Grab 25 tweets from @CNNbrk (or your preferred news outlet)
 
-  * Add each value to the appropriate list
+* Loop through all tweets
+  - Run Vader Analysis on each tweet
+  - Add each polarity score value to the appropriate list
 
-  * Store the Average Sentiments
+* Create a dictionary storing the mean of each list
 
-  * Print the Sentiments
+* Print the dictionary

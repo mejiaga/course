@@ -1,8 +1,8 @@
 # Instructions
 
-* Take a few minutes to explore the JSON Placeholder API: <https://api.spacexdata.com>
+* Take a few minutes to explore the SpaceX API: <https://github.com/r-spacex/SpaceX-API/wiki>
 
-* Once you understand the structure of the API and its endpoint, choose one of the endpoints that is _not_ `vehicles`, and do the following:
+* Once you understand the structure of the API and its endpoint, choose one of the endpoints and do the following:
 
   * Retrieve and print the JSON for _all_ of the records from your chosen endpoint.
 
@@ -10,6 +10,6 @@
 
 - - -
 
-### Copyright
+## Copyright
 
-Trilogy Education Services © 2017. All Rights Reserved.
+Data Boot Camp © 2018. All Rights Reserved.

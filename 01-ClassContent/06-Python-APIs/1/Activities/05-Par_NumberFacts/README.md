@@ -12,6 +12,6 @@
 
 - - -
 
-### Copyright
+## Copyright
 
-Trilogy Education Services © 2017. All Rights Reserved.
+Data Boot Camp © 2018. All Rights Reserved.

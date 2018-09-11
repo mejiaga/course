@@ -1,0 +1,33 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background: #adbad4;
+}
+
+.navbar.navbar-default {
+  padding: 3px;
+  background: #3b5998;
+  border: 0;
+}
+
+.navbar-header > .navbar-brand {
+  color: white;
+}
+
+.panel.panel-default {
+  border: 0;
+}
+
+.panel.panel-default > .panel-heading {
+  padding: 15px;
+  color: white;
+  background: #3b5998;
+}
+
+.footer {
+  padding: 15px;
+  color: white;
+  background: #3b5998;
+}

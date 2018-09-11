@@ -20,11 +20,11 @@ with open(csvpath, newline="") as csvfile:
     # Loop through looking for the video
     for row in csvreader:
         if row[0] == video:
-            print(row[0]+ " is rated "+ row[1] + " with a rating of " + row[6])
+            print(row[0] + " is rated " + row[1] + " with a rating of " + row[6])
 
             # Set variable to confirm we have found the video
             found = True
 
     # If the video is never found, alert the user
-    if found == False:
+    if found is False:
         print("Sorry about this, we don't seem to have what you are looking for!")

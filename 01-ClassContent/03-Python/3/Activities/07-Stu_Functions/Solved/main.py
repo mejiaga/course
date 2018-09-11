@@ -6,9 +6,7 @@ def average(numbers):
         total += number
     return total / length
 
-# Write a main function that calls the average function with test data
-# and print the results to the console.
-def main():
-    print(average([1, 5, 9]))
-    print(average(range(11)))
 
+# Test your function with the following:
+print(average([1, 5, 9]))
+print(average(range(11)))

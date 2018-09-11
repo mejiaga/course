@@ -3,9 +3,9 @@
 
 # A list of actors
 actors = ["Tom Cruise",
-            "Angelina Jolie",
-            "Kristen Stewart",
-            "Denzel Washington"]
+          "Angelina Jolie",
+          "Kristen Stewart",
+          "Denzel Washington"]
 
 # A dictionary of an actor
 actor = {"name": "Tom Cruise"}
@@ -19,7 +19,14 @@ actress = {"name": "Angelina Jolie", "genre": "Action", "nationality": "United S
 # ---------------------------------------------------------------
 
 # A dictionary can contain multiple types of information
-another_actor = {"name": "Sylvester Stallone", "age": 62, "married": True, "best movies": ["Rocky", "Rocky 2", "Rocky 3"]}
+another_actor = {
+    "name": "Sylvester Stallone",
+    "age": 62,
+    "married": True,
+    "best movies": [
+        "Rocky",
+        "Rocky 2",
+        "Rocky 3"]}
 print(f'{another_actor["name"]} was in {another_actor["best movies"][0]}')
 # ---------------------------------------------------------------
 

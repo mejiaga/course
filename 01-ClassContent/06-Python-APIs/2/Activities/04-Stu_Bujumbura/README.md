@@ -8,7 +8,7 @@ This activity gives students practice with making API calls and handling respons
 
 * Build your query URL. Check the documentation to figure out how to request temperatures in Celsius.
 
-* Make your request, and save the API's response.
+* Make your request, and save the API response.
 
 * Retrieve the current temperature in Bujumbura from the JSON response.
 

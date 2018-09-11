@@ -1,6 +1,8 @@
 # Define the function and tell it to print "Hello!" when called
 def printHello():
     print(f"Hello!")
+
+
 # Call the function within the application to ensure the code is run
 printHello()
 # -------------#
@@ -9,6 +11,8 @@ printHello()
 # Functions that take in and use parameters can also be defined
 def printName(name):
     print("Hello " + name + "!")
+
+
 # When calling a function with a parameter, a parameter must be passed into the function
 printName("Bob Smith")
 # -------------#
@@ -23,6 +27,7 @@ def listInformation(simpleList):
     for value in simpleList:
         print(value)
     print("The length of this list is... " + str(len(simpleList)))
+
 
 listInformation(listOne)
 listInformation(listTwo)

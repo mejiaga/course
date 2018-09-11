@@ -12,13 +12,13 @@ def getPercentages(wrestlerData):
     totalMatches = int(wrestlerData[1]) + int(wrestlerData[2]) + int(wrestlerData[3])
 
     # Win percent can be found by dividing the the total wins by the total matches and multiplying by 100
-    winPercent = (int(wrestlerData[1])/totalMatches)*100
+    winPercent = (int(wrestlerData[1]) / totalMatches) * 100
 
     # Loss percent can be found by dividing the total losses by the total matches and multiplying by 100
-    lossPercent = (int(wrestlerData[2])/totalMatches)*100
+    lossPercent = (int(wrestlerData[2]) / totalMatches) * 100
 
     # Draw percent can be found by dividing the total draws by the total matches and multiplying by 100
-    drawPercent = (int(wrestlerData[3])/totalMatches)*100
+    drawPercent = (int(wrestlerData[3]) / totalMatches) * 100
 
     # If the loss percentage is over 50, typeOfWrestler is "Jobber". Otherwise it is "Superstar".
     if(lossPercent > 50):
@@ -32,6 +32,7 @@ def getPercentages(wrestlerData):
     print(f"LOSS PERCENT: {str(lossPercent)}")
     print(f"DRAW PERCENT: {str(drawPercent)}")
     print(f"{wrestlerData[0]} is a {typeOfWrestler}")
+
 
 # Read in the CSV file
 with open(wrestlingCSV, 'r') as csvfile:
